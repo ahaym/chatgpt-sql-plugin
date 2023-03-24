@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "database_explorer",
+  "name_for_human": "Database Explorer",
+  "description_for_model": "Plugin for exploring an SQL database. Enables users to list tables, view columns of a table, and execute SQL queries on their database. Use it whenever a user needs to interact with their database schema or retrieve specific data.",
+  "description_for_human": "Explore and query your SQL database.",
+  "auth": {
+    "type": "user_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://your-app-url.com/.well-known/openapi.json",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://your-app-url.com/.well-known/logo.png",
+  "contact_email": "mark@textql.com",
+  "legal_info_url": "mark@textql.com"
+}
